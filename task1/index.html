@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-md-4">
+                <div class="drop-area">
+                    <h3>Todo List</h3>
+                    <hr>
+                    <ul class="list-group task-list" id="todoTaskList">
+                        <li draggable="true" class="list-group-item">An item</li>
+                        <li draggable="true" class="list-group-item">A second item</li>
+                        <li draggable="true" class="list-group-item">A third item</li>
+                        <li draggable="true" class="list-group-item">A fourth item</li>
+                        <li draggable="true" class="list-group-item">And a fifth one</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 task-list">
+                <div class="drop-area">
+                    <h3>Done List</h3>
+                    <hr>
+                    <ul class="list-group" id="doneTaskList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

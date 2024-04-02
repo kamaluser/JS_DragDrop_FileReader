@@ -1,0 +1,12 @@
+.drop-area {
+    border: 2px dashed #aaa;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+.task-list li:hover {
+    background-color: #f0f0f0;
+}
+
+

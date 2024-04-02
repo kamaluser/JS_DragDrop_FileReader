@@ -1,0 +1,43 @@
+.box{
+    width: 120px;
+    height: 120px;
+}
+
+.main-box{
+    width: 800px;
+    height: 450px;
+}
+
+.bg-red{
+    background-color: red;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-gray{
+    background-color: gray;
+}
+
+.main-box-2{
+    height: 400px;
+    width: 400px;
+    border: 1px dashed black;
+}
+
+#logo{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    cursor: pointer;
+}
+
+.main-box img{
+    width: 200px;
+    height: 200px;
+}
