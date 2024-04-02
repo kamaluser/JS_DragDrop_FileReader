@@ -30,11 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
             let targetList = elem.querySelector('ul');
 
             if (currentList != targetList) {
-                if (elem.id == "doneTaskList") {
-                    draggedItem.style.textDecoration = "line-through";
-                } else {
-                    draggedItem.style.textDecoration = "none";
-                }
                 targetList.appendChild(draggedItem);
                 addDragEvents();
             }

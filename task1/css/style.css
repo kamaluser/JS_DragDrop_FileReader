@@ -9,4 +9,7 @@
     background-color: #f0f0f0;
 }
 
+#doneTaskList li{
+    text-decoration: line-through;
+}
 
